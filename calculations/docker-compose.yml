@@ -1,0 +1,7 @@
+services:
+  python:
+    image: python:latest
+    working_dir: /code
+    command: python3 calc.py
+    volumes: 
+      - ./:/code
